@@ -1,0 +1,24 @@
+{
+  "name": "glazed-whale",
+  "version": "1.0.0",
+  "description": "Automated Franchiser token mining bot with smart contract controller",
+  "main": "scripts/monitor.js",
+  "scripts": {
+    "monitor": "node scripts/monitor.js",
+    "deploy": "hardhat run scripts/deploy.js --network base",
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "keywords": ["donutdao", "franchise", "mining", "bot"],
+  "author": "Cruller",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
